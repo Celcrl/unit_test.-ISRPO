@@ -10,6 +10,10 @@
 - `circle.py` - модуль с функциями для круга
 - `test_circle.py` - unit-тесты для проверки
 
+-`rectangle.py` - модуль с функциями для прямоугольника
+- `test_rectangle.py` - unit-тесты для проверки 
+
 ### Запуск тестов
 ```bash
 python -m unittest test_circle.py
+python -m unittest test_rectangle.py
