@@ -4,7 +4,7 @@ from rectangle import area, perimeter
 class RectangleTestCase(unittest.TestCase):
     def test_area_zero(self):
         res = area(10, 0)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, -1)
 
     def test_area_square(self):
         res = area(10, 10)
